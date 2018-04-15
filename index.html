@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>studio step 3</title>
+<script src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+
+
+
+<style>
+    #myflatz-artimage{
+        transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+    }
+</style>
+
+</head>
+
+<body>
+
+<img src="img/1.png" id="myflatz-artimage" style="margin-left:36%;"/>
+
+<div id="button-section" style="margin-left:26%; margin-top: 1%;">
+<button type="button" onclick="undo()">Undo</button>            
+<button type="button" onclick="redo()">Redo</button>
+<button type="button" onclick="zoomin()">Zoom In</button>
+<button type="button" onclick="zoomout()">Zoom Out</button>
+<button type="button" onclick="flipvertical()">Flip Vertical</button>
+<button type="button" onclick="fliphorizental()">Flip Horizental</button>
+<button type="button" id="rotateclockwise">Rotate Clockwise</button>
+<button type="button" id="rotateanticlockwise">Rotate AntiClockwise</button>
+<input type="color" id="color-picker">Color Change
+</div>
+</body>
+</html>
